@@ -12,5 +12,7 @@ secondo.o: secondo.h secondo.c
 primo.o: primo.h primo.c
 	gcc -c primo.c $(CFLAGS) 
 
-
+clean: 
+	rm -f *.o
+	rm -f main
 
