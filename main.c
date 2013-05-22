@@ -12,12 +12,9 @@ int main()
 {
   int num;
   int a;
-  printf("Commento nel master\n");
-  printf("Commento scritto sul ramo secondario\n");
-  printf("\n");
   printf("PREMI:\n1) per entrare nel primo programma\n2) per entrare nel secondo programma\n3) per entrare nel terzo programma\n0) per uscure\n\n");
-printf("Inserisci un numero: ");
- scanf("%d",&num);
+  printf("Inserisci un numero: ");
+  scanf("%d",&num);
   while (num!=0){
     if(num==1)
       a=primo();
