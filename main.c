@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include "primo.h"
 #include "secondo.h"
-#include "terzo.h"
+include "terzo.h"
 
 int main()
 {
